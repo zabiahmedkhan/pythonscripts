@@ -1,4 +1,4 @@
-#/usr/bin/python
+#!/usr/bin/python
 import sys
 try:
     total = sum(int(arg) for arg in sys.argv[1:])
