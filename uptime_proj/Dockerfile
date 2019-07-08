@@ -6,6 +6,6 @@ RUN apt-get update && apt-get install -y python && apt-get install -y python-pip
 
 COPY uptime.py /
 
-EXPOSE 10500
+EXPOSE 11000
 
 CMD ["./uptime.py"]
